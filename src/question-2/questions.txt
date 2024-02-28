@@ -1,0 +1,17 @@
+Write a function that accepts a string containing brackets e.g {}[]() and returns true if the string contains balanced brackets and false if otherwise.
+
+A balanced bracket is one that has an opening and a corresponding closing pair.
+
+Example:
+  '([]{}())' is considered balanced
+  '[]{}()' is considered balanced
+  '[]{}()' is considered balanced
+  '[[[[{{}}]]]]()' is considered balanced
+
+  '[[' is considered not balanced
+  '}])' is considered not balanced
+  '{(}}])' is considered not balanced
+
+
+Run Test Using:
+  npm test -- --findRelatedTests test/solution-2.test.js
