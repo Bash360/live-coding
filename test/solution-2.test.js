@@ -36,5 +36,8 @@ test('case 8', () => {
 	test('case 9', () => {
 		expect(balancedBrackets('}}})))[[[')).toBe(false)
 	})
+	test('case 10', () => {
+		expect(balancedBrackets('{){])[')).toBe(false)
+	})
 
 })
